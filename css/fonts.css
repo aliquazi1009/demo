@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600;700;800&display=swap');
+
+/* -----Cerebi Sans-------- */
+@font-face {
+    font-family: ceb-1;
+    src: url(../fonts/CerebriSans/CerebriSans-Light.ttf);
+}
+@font-face {
+    font-family: ceb-2;
+    src: url(../fonts/CerebriSans/CerebriSans-Regular.ttf);
+}
+@font-face {
+    font-family: ceb-3;
+    src: url(../fonts/CerebriSans/CerebriSans-Medium.ttf);
+}
+@font-face {
+    font-family: ceb-4;
+    src: url(../fonts/CerebriSans/CerebriSans-Bold.ttf);
+}
+@font-face {
+    font-family: ceb-5;
+    src: url(../fonts/CerebriSans/CerebriSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: ceb-6;
+    src: url(../fonts/CerebriSans/CerebriSans-Heavy.ttf);
+}
+
+/* ----------Helvetica Neue-------------- */
+@font-face {
+    font-family: HelveticaNeue-1;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Ultralight.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-2;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Thin.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-3;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Light.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-4;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Regular.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-5;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Medium.otf);
+}
+@font-face {
+    font-family: HelveticaNeue-6;
+    src: url(../fonts/HelveticaNeue/HelveticaNeue-Bold.otf);
+}

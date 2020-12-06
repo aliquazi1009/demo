@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css + bts-css -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product-slider.css">
+
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+
+    <!-- other js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="./js/fontAwesomeIcons.js"></script>
+    <script src="./js/navbarScripts.js"></script>
+    <script src="./js/product-slider.js"></script>
+    <!-- <script src="./js/anime.min.js"></script> -->
+    <script>
+        $(function () {
+            $(".typed").typed({
+                strings: ["Welcome to Us.", "You imagine, We'll Craft it.", "A Trendy Luxury Crafts."],
+                // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+                stringsElement: null,
+                // typing speed
+                typeSpeed: 60,
+                // time before typing starts
+                startDelay: 1200,
+                // backspacing speed
+                backSpeed: 50,
+                // time before backspacing
+                backDelay: 500,
+                // loop
+                loop: true,
+                // false = infinite
+                loopCount: 100,
+                // show cursor
+                showCursor: false,
+                // character for cursor
+                cursorChar: "|",
+                // attribute to type (null == text)
+                attr: null,
+                // either html or text
+                contentType: 'html',
+                // call when done callback function
+                callback: function () { },
+                // starting callback function before each string
+                preStringTyped: function () { },
+                //callback for every typed string
+                onStringTyped: function () { },
+                // callback for reset
+                resetCallback: function () { }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                7 STAR
+                <!-- <img src="./img/logo/logo4.png" height="55" alt="" loading="lazy"> -->
+            </a>
+
+            <button class="navbar-toggler" type="button" onclick="openSideNavOuter()">
+                <span class="hamburger">
+                    <img id="logo" src="./img/icons/menu-light.png" alt="" width="35px">
+                </span>
+            </button>
+
+            <!-- Primary side menu panel -->
+            <div id="sideNavOuter" class="side-nav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSideNavOuter()">&times;</a>
+                <div class="side-nav-content">
+                    <a href="#"> <i class="fas fa-home-lg"></i>&nbsp; Home</a>
+                    <a href="#"> <i class="fas fa-layer-group"></i>&nbsp; Products</a>
+                    <a href="#"> <i class="fas fa-info-circle"></i>&nbsp; About</a>
+                    <a href="#"> <i class="fas fa-at"></i>&nbsp; Contact</a>
+                </div>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- slider -->
+    <section class="banner">
+        <div class="overley"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p>Hi there!</p>
+                    <h1 class="typed" style="font-size: 55px;font-family: HelveticaNeue-2;"></h1>
+                    <hr style="background: rgb(131, 131, 131)">
+                    <p class="banner-p">With Great Team & Good Experience, we offers a wide range of varieties in all
+                        type of Furnitures. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Short Intro -->
+    <section class="intro jumbotron">
+        <div class="container text-center pb-4 pt-1">
+            <div class="content">
+                <!-- <h4>What we offer</h4> -->
+                <h1>Welcome To Us</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo ex harum aliquam libero,
+                    itaque esse. Cumque repellat voluptas non eaque harum esse dolorum in ut saepe. Enim, nihil
+                    voluptatem!</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <i class="far fa-crosshairs fa-3x"></i>
+                    <h4>Prime Focus</h4>
+                    <p>Delivery on time is our strength never compromise with quality is our main object customer
+                        satisfaction is our teaching.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <i class="far fa-users fa-3x"></i>
+                    <h4>Skilled Team </h4>
+                    <p>Great and good experience team are our backbone and throw this team we are capable of your every
+                        quality chek parameter.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <i class="far fa-project-diagram fa-3x"></i>
+                    <h4>Services</h4>
+                    <p>As genuine manufacturer we are able to cater for any special requirement that you may not find
+                        amongst our range.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- product slider -->
+    <section class="product-slider jumbotron">
+        <div class="container text-center pb-4 pt-1">
+            <div class="content">
+                <!-- <h4>What we offer</h4> -->
+                <h1>Our Featured Products</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo ex harum aliquam libero.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row product-slider-inner">
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/1.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/1.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/1.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/1.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+</body>
+
+</html>
