@@ -27,44 +27,9 @@
     <script src="./js/fontAwesomeIcons.js"></script>
     <script src="./js/navbarScripts.js"></script>
     <script src="./js/product-slider.js"></script>
+    <script src="./js/auto-typed.js"></script>
     <!-- <script src="./js/anime.min.js"></script> -->
-    <script>
-        $(function () {
-            $(".typed").typed({
-                strings: ["Welcome to Us.", "You imagine, We'll Craft it.", "A Trendy Luxury Crafts."],
-                // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-                stringsElement: null,
-                // typing speed
-                typeSpeed: 60,
-                // time before typing starts
-                startDelay: 1200,
-                // backspacing speed
-                backSpeed: 50,
-                // time before backspacing
-                backDelay: 500,
-                // loop
-                loop: true,
-                // false = infinite
-                loopCount: 100,
-                // show cursor
-                showCursor: false,
-                // character for cursor
-                cursorChar: "|",
-                // attribute to type (null == text)
-                attr: null,
-                // either html or text
-                contentType: 'html',
-                // call when done callback function
-                callback: function () { },
-                // starting callback function before each string
-                preStringTyped: function () { },
-                //callback for every typed string
-                onStringTyped: function () { },
-                // callback for reset
-                resetCallback: function () { }
-            });
-        });
-    </script>
+
 </head>
 
 <body>
@@ -108,7 +73,7 @@
 
     <!-- slider -->
     <section class="banner">
-        <div class="overley"></div>
+        <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-6">
@@ -129,9 +94,10 @@
             <div class="content">
                 <h4>What we offer</h4>
                 <h1>Welcome To Us</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo ex harum aliquam libero,
-                    itaque esse. Cumque repellat voluptas non eaque harum esse dolorum in ut saepe. Enim, nihil
-                    voluptatem!</p>
+                <p>We star International are accepted as an notable manufacturer, supplier and exporter we are
+                    specialized in antique Handicrafts furniture include patio furniture ,retro furniture ,mid century
+                    ,French and Indian style furniture other like bedroom kitchen hospitality banqueting restaurant and
+                    multipurpose furniture are also include</p>
             </div>
         </div>
 
@@ -160,11 +126,11 @@
         </div>
     </section>
 
-    <!-- product slider -->
+    <!-- product slider [Featured] -->
     <section class="product-slider jumbotron">
         <div class="container text-center pb-4 pt-1">
             <div class="content">
-                <!-- <h4>What we offer</h4> -->
+                <h4>See our</h4>
                 <h1>Featured Products</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo ex harum aliquam libero.</p>
             </div>
@@ -174,7 +140,7 @@
             <div class="row product-slider-inner">
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/1.jpg" alt="">
+                        <img src="./img/product-slider/featured/1.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -185,7 +151,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/2.jpg" alt="">
+                        <img src="./img/product-slider/featured/2.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -196,7 +162,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/3.jpg" alt="">
+                        <img src="./img/product-slider/featured/3.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -207,7 +173,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/4.jpg" alt="">
+                        <img src="./img/product-slider/featured/4.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -218,7 +184,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/1.jpg" alt="">
+                        <img src="./img/product-slider/featured/5.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -229,7 +195,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/3.jpg" alt="">
+                        <img src="./img/product-slider/featured/6.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -238,6 +204,40 @@
                         <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/7.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/8.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/featured/9.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -256,12 +256,12 @@
 
 
 
-    <!-- product slider -->
+    <!-- product slider [Exclusive]-->
     <section class="product-slider jumbotron">
         <div class="container text-center pb-4 pt-1">
             <div class="content">
-                <!-- <h4>What we offer</h4> -->
-                <h1>Featured Products</h1>
+                <h4>See our</h4>
+                <h1>Popular Products</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam explicabo ex harum aliquam libero.</p>
             </div>
         </div>
@@ -270,7 +270,7 @@
             <div class="row product-slider-inner">
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/1.jpg" alt="">
+                        <img src="./img/product-slider/signature/1.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -281,7 +281,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/2.jpg" alt="">
+                        <img src="./img/product-slider/signature/2.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -292,7 +292,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/3.jpg" alt="">
+                        <img src="./img/product-slider/signature/3.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -303,7 +303,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/4.jpg" alt="">
+                        <img src="./img/product-slider/signature/4.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -314,7 +314,7 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/1.jpg" alt="">
+                        <img src="./img/product-slider/signature/5.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -325,7 +325,40 @@
                 </div>
                 <div class="col">
                     <div class="img-container">
-                        <img src="./img/product-slider/3.jpg" alt="">
+                        <img src="./img/product-slider/signature/6.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/7.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/8.jpg" alt="">
+                    </div>
+                    <div class="body-container">
+                        <h4>Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod perferendis.</p>
+                        <!-- <button type="button" class="btn btn-danger">More</button> -->
+                        <a href="#">More Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img-container">
+                        <img src="./img/product-slider/signature/9.jpg" alt="">
                     </div>
                     <div class="body-container">
                         <h4>Heading</h4>
@@ -337,6 +370,56 @@
             </div>
         </div>
     </section>
+
+
+
+    <!--Footer-->
+    <footer class="jumbotron">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-4 ">
+                        <h3 class="mb-3">About</h3>
+                        <p>With Great Team & Good Experience, we offers a wide range of varieties in all type of Furnitures.</p>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <h3 class="mb-3">Quick links</h3>
+
+                        <ul>
+                            <li><a href="#"><i class="fas fa-minus-square mr-2"></i>Home</a></li>
+                            <li><a href="#"><i class="fas fa-minus-square mr-2"></i>Products</a></li>
+                            <li><a href="#"><i class="fas fa-minus-square mr-2"></i>About</a></li>
+                            <li><a href="#"><i class="fas fa-minus-square mr-2"></i>Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-4 ">
+                        <h3>Contact</h3>
+
+                        <ul>
+                            <li><i class="fas fa-envelope icons"></i><a href="tel:"> &nbsp;&nbsp;(+91) 77554 66221</a></li>
+                            <li><i class="fas fa-phone-alt icons"></i><a href="mailto:"> &nbsp;&nbsp;info@star.com</a></li>
+                            <li style="pointer-events: none;"><i class="fas fa-map-marker-alt icons"></i><a href="javascript:void(0)"> &nbsp;&nbsp; 123, Decliar Mark, New York DC.</a></li>
+                        </ul>
+                        <hr style="background: rgba(255,255,255,.1);margin: 25px 0;">
+                        <p>copyright © 2021. all rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--//Footer-->
 
 
 </body>

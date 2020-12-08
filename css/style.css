@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    min-height: 460vh;
+    min-height: 260vh;
     /* background-color: rgb(232, 243, 255); */
     background: #f8faff;
 }
@@ -112,13 +112,14 @@ nav .side-nav-content {
 } 
 nav .side-nav .side-nav-content a{  
     /* padding: 10px;   */
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Josefin Sans',sans-serif;
     font-weight: 600;
     margin: 30px 0; 
     /* background-color: skyblue;  */
     text-decoration: none;  
     font-size: 25px;
-    color: #9c9c9c;   
+    color: #d4d4d4;   
     display: block;  
     transition: .08s linear;
 }
@@ -128,13 +129,12 @@ nav .side-nav a.closebtn{
     top: 10px;  
     right: 30px;  
     text-decoration: none;  
-    color: #9c9c9c;  
+    color: #9c744c;  
     z-index: 100;  
     transition: 0.1s linear;
 }  
-nav .side-nav a.closebtn:hover,
 nav .side-nav .side-nav-content a:hover{  
-    color: #dddddd;
+    color:#9c744c;
 }
 
 
@@ -155,12 +155,13 @@ nav .side-nav .side-nav-content a:hover{
 .banner .container{
     max-width: 1050px;
 }
-.banner .overley{
+.banner .overlay{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    bottom: 0;
     background-color: rgb(0, 0, 0, 0.5);
 }
 .banner .row{
@@ -198,7 +199,7 @@ nav .side-nav .side-nav-content a:hover{
     /* background-color: antiquewhite; */
 }
 .intro .container .content{
-    max-width: 770px;
+    max-width: 870px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -256,7 +257,7 @@ nav .side-nav .side-nav-content a:hover{
 /*                                                  Product Slider                                          */
 /* -------------------------------------------------------------------------------------------------------- */
 .product-slider.jumbotron{
-    background: #f8faff;
+    background: #fff;
     border-radius: 0;
     margin-bottom: 0;
 }
@@ -268,6 +269,13 @@ nav .side-nav .side-nav-content a:hover{
     max-width: 770px;
     margin-left: auto;
     margin-right: auto;
+}
+.product-slider .container .content h4{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#aa8453;
 }
 .product-slider .container .content h1{
     font-family: 'Poppins',sans-serif;
@@ -282,9 +290,6 @@ nav .side-nav .side-nav-content a:hover{
     letter-spacing: 1px;
     line-height: 25px;
     font-size: 15px;
-}
-.product-slider .container .row{
-    /* background-color: rgb(243, 243, 243); */
 }
 .product-slider .container .row .col{
     background-color: #fff;
@@ -381,6 +386,96 @@ nav .side-nav .side-nav-content a:hover{
     font-weight: 400;
     text-transform: uppercase;
 }
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+/*                                                  Footer                                                  */
+/* -------------------------------------------------------------------------------------------------------- */
+footer.jumbotron{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: rgb(34, 34, 34);
+}
+footer .container{
+    max-width: 1050px;
+    /* background-color: #ffe2bd; */
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(1),
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(2),
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(3){
+    padding: 0px 20px;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(1) h3,
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(2) h3,
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(3) h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(1) p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #d4d4d4;
+    text-align: justify;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(1) ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(1) ul li{
+    margin: 0 20px;
+    /* background-color: #9c744c; */
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(1) ul li a{
+    color: #d4d4d4;
+    font-size: 24px;
+}
+
+
+
+
+
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(2) ul,
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(3) ul{
+    padding: 0 5px;
+    list-style-type: none;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(2) ul li,
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(3) ul li{
+    margin: 10px 0;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(2) ul li a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d4d4d4;
+    font-size: 16px;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(3) ul li a{
+    /* background-color: #888888; */
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d4d4d4;
+    text-decoration: none;
+    font-size: 17px !important;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(3) ul li .icons{
+    color: #d4d4d4;
+    font-size: 20px !important;
+}
+footer .container .col-sm-12.col-md-4.col-lg-4:nth-child(3) p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #d4d4d4;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+
 
 
 
